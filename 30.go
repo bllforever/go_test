@@ -12,6 +12,7 @@ type Movie struct {
 }
 
 func main() {
+	fmt.Println("hello world")
 	movie := Movie{"天使爱美丽", 2008, 30}
 	json_str, err := json.Marshal(movie)
 	if err != nil {
